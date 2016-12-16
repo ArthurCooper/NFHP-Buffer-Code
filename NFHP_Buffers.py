@@ -3,6 +3,12 @@ from arcpy import env
 from arcpy.sa import *
 import sys
 
+#This ArcPy code was developed at the Aquatic Landscape Ecology Lab at Michigan State University by Arthur Cooper (coopera6@msu.edu)
+#(Principal Investigator: Dana Infante) in support of the National Fish Habitat Partnership (NFHP) 2015 national river assessment
+#(http://www.fishhabitat.org/). The 90 meter buffers developed for stream/river features of the National Hydrography Dataset Plus v1
+#(NHDPlus v1: http://www.horizon-systems.com/nhdplus/nhdplusv1_home.php) and used in the assessment can be downloaded at
+#(Website to be updated) along with a variety of landscape-based attributes (e.g., land use) summarized for these buffers. 
+
 # Input NHDPlus region below or alternatively use the commented code when running with NFHP_loop.py for multiple regions
 NHDPlus = "02" #sys.argv[1]
 
